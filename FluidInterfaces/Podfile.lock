@@ -1,0 +1,22 @@
+PODS:
+  - Elephant-Parade (1.0.0)
+
+DEPENDENCIES:
+  - Elephant-Parade (from `https://github.com/HelloElephant/Parade.git`, tag `1.0.0`)
+
+EXTERNAL SOURCES:
+  Elephant-Parade:
+    :git: https://github.com/HelloElephant/Parade.git
+    :tag: 1.0.0
+
+CHECKOUT OPTIONS:
+  Elephant-Parade:
+    :git: https://github.com/HelloElephant/Parade.git
+    :tag: 1.0.0
+
+SPEC CHECKSUMS:
+  Elephant-Parade: 0adb66fd07bc9344cc8a9e25a0c66e1e04fcdaf4
+
+PODFILE CHECKSUM: 85f95b65e21cad46259e57abc3d48e10be2f0a12
+
+COCOAPODS: 1.6.1

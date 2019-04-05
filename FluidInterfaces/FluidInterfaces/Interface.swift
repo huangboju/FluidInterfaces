@@ -32,7 +32,8 @@ extension Interface {
             ],
             [
             Interface(name: "AnimatedWaveView", icon: #imageLiteral(resourceName: "icon_rotation"), color: UIColor(hex: 0xFF28A5), type: AnimatedWaveViewVC.self, link: "https://github.com/j-wilkin/AnimatedWaveView"),
-            Interface(name: "AppleWatchBreathe", icon: #imageLiteral(resourceName: "icon_rotation"), color: UIColor(hex: 0xFF28A5), type: AppleWatchBreatheVC.self, link: "https://juejin.im/post/5c8ef41ef265da682335e688")
+            Interface(name: "AppleWatchBreathe", icon: #imageLiteral(resourceName: "icon_rotation"), color: UIColor(hex: 0xFF28A5), type: AppleWatchBreatheVC.self, link: "https://juejin.im/post/5c8ef41ef265da682335e688"),
+            Interface(name: "ParallaxImageViewController", icon: #imageLiteral(resourceName: "icon_rotation"), color: UIColor(hex: 0xFF28A5), type: ParallaxImageViewController.self, link: "https://github.com/HelloElephant/Parade/blob/master/Documentation/installation.md")
             ]
         ]
     }

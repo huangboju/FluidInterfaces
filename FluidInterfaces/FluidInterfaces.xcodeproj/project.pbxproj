@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D53D86D626BF28DAFD75F90 /* Pods_FluidInterfaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94510D0D3BC18488A79302C /* Pods_FluidInterfaces.framework */; };
 		BEED21862256E28900394EE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEED21852256E28900394EE9 /* AppDelegate.swift */; };
 		BEED21882256E28900394EE9 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEED21872256E28900394EE9 /* MenuViewController.swift */; };
 		BEED218B2256E28900394EE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEED21892256E28900394EE9 /* Main.storyboard */; };
@@ -33,9 +34,21 @@
 		BEED21C02256E9FD00394EE9 /* Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEED21B22256E9FC00394EE9 /* Rotation.swift */; };
 		BEED21C12256E9FD00394EE9 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEED21B32256E9FC00394EE9 /* UIColorExtensions.swift */; };
 		BEED21C32256EA6700394EE9 /* InterfaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEED21C22256EA6700394EE9 /* InterfaceViewController.swift */; };
+		BEED21D1225702A800394EE9 /* ParallaxImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEED21C5225702A700394EE9 /* ParallaxImageViewController.swift */; };
+		BEED21D2225702A800394EE9 /* PagingCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEED21C6225702A700394EE9 /* PagingCollectionViewFlowLayout.swift */; };
+		BEED21D3225702A800394EE9 /* ParallaxImageAppearCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEED21C8225702A800394EE9 /* ParallaxImageAppearCollectionViewCell.swift */; };
+		BEED21D4225702A800394EE9 /* ParallaxImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEED21C9225702A800394EE9 /* ParallaxImageCollectionViewCell.swift */; };
+		BEED21D5225702A800394EE9 /* ParallaxScaleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEED21CA225702A800394EE9 /* ParallaxScaleCollectionViewCell.swift */; };
+		BEED21D6225702A800394EE9 /* ParallaxTheEndCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEED21CB225702A800394EE9 /* ParallaxTheEndCollectionViewCell.swift */; };
+		BEED21D7225702A800394EE9 /* ParallaxIntroCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEED21CC225702A800394EE9 /* ParallaxIntroCollectionViewCell.swift */; };
+		BEED21D8225702A800394EE9 /* ParallaxDoubleImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEED21CD225702A800394EE9 /* ParallaxDoubleImageCollectionViewCell.swift */; };
+		BEED21D9225702A800394EE9 /* ParallaxImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEED21CF225702A800394EE9 /* ParallaxImageView.swift */; };
+		BEED21DA225702A800394EE9 /* ProgressDotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEED21D0225702A800394EE9 /* ProgressDotView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		721C0494238824A526333666 /* Pods-FluidInterfaces.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FluidInterfaces.release.xcconfig"; path = "Target Support Files/Pods-FluidInterfaces/Pods-FluidInterfaces.release.xcconfig"; sourceTree = "<group>"; };
+		90C0DCABE961A5C224B1036C /* Pods-FluidInterfaces.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FluidInterfaces.debug.xcconfig"; path = "Target Support Files/Pods-FluidInterfaces/Pods-FluidInterfaces.debug.xcconfig"; sourceTree = "<group>"; };
 		BEED21822256E28900394EE9 /* FluidInterfaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FluidInterfaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEED21852256E28900394EE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEED21872256E28900394EE9 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +77,17 @@
 		BEED21B22256E9FC00394EE9 /* Rotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rotation.swift; sourceTree = "<group>"; };
 		BEED21B32256E9FC00394EE9 /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
 		BEED21C22256EA6700394EE9 /* InterfaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceViewController.swift; sourceTree = "<group>"; };
+		BEED21C5225702A700394EE9 /* ParallaxImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxImageViewController.swift; sourceTree = "<group>"; };
+		BEED21C6225702A700394EE9 /* PagingCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		BEED21C8225702A800394EE9 /* ParallaxImageAppearCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxImageAppearCollectionViewCell.swift; sourceTree = "<group>"; };
+		BEED21C9225702A800394EE9 /* ParallaxImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		BEED21CA225702A800394EE9 /* ParallaxScaleCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxScaleCollectionViewCell.swift; sourceTree = "<group>"; };
+		BEED21CB225702A800394EE9 /* ParallaxTheEndCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxTheEndCollectionViewCell.swift; sourceTree = "<group>"; };
+		BEED21CC225702A800394EE9 /* ParallaxIntroCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxIntroCollectionViewCell.swift; sourceTree = "<group>"; };
+		BEED21CD225702A800394EE9 /* ParallaxDoubleImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxDoubleImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		BEED21CF225702A800394EE9 /* ParallaxImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxImageView.swift; sourceTree = "<group>"; };
+		BEED21D0225702A800394EE9 /* ProgressDotView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressDotView.swift; sourceTree = "<group>"; };
+		C94510D0D3BC18488A79302C /* Pods_FluidInterfaces.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FluidInterfaces.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,17 +95,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D53D86D626BF28DAFD75F90 /* Pods_FluidInterfaces.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5DB2D94DE6958A3FA4A2A8B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90C0DCABE961A5C224B1036C /* Pods-FluidInterfaces.debug.xcconfig */,
+				721C0494238824A526333666 /* Pods-FluidInterfaces.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		875BA3992D1FD523DFA43193 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C94510D0D3BC18488A79302C /* Pods_FluidInterfaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BEED21792256E28900394EE9 = {
 			isa = PBXGroup;
 			children = (
 				BEED21842256E28900394EE9 /* FluidInterfaces */,
 				BEED21832256E28900394EE9 /* Products */,
+				5DB2D94DE6958A3FA4A2A8B6 /* Pods */,
+				875BA3992D1FD523DFA43193 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +140,7 @@
 		BEED21842256E28900394EE9 /* FluidInterfaces */ = {
 			isa = PBXGroup;
 			children = (
+				BEED21C42256FE3D00394EE9 /* Parade */,
 				BEED21A52256E7A400394EE9 /* FluidInterfaces */,
 				BEED219C2256E53100394EE9 /* AnimatedWaveView */,
 				BEED21972256E3F200394EE9 /* AppleWatchBreathe */,
@@ -151,6 +196,39 @@
 			path = FluidInterfaces;
 			sourceTree = "<group>";
 		};
+		BEED21C42256FE3D00394EE9 /* Parade */ = {
+			isa = PBXGroup;
+			children = (
+				BEED21C6225702A700394EE9 /* PagingCollectionViewFlowLayout.swift */,
+				BEED21C5225702A700394EE9 /* ParallaxImageViewController.swift */,
+				BEED21C7225702A800394EE9 /* ParallaxCells */,
+			);
+			path = Parade;
+			sourceTree = "<group>";
+		};
+		BEED21C7225702A800394EE9 /* ParallaxCells */ = {
+			isa = PBXGroup;
+			children = (
+				BEED21C8225702A800394EE9 /* ParallaxImageAppearCollectionViewCell.swift */,
+				BEED21C9225702A800394EE9 /* ParallaxImageCollectionViewCell.swift */,
+				BEED21CA225702A800394EE9 /* ParallaxScaleCollectionViewCell.swift */,
+				BEED21CB225702A800394EE9 /* ParallaxTheEndCollectionViewCell.swift */,
+				BEED21CC225702A800394EE9 /* ParallaxIntroCollectionViewCell.swift */,
+				BEED21CD225702A800394EE9 /* ParallaxDoubleImageCollectionViewCell.swift */,
+				BEED21CE225702A800394EE9 /* Views */,
+			);
+			path = ParallaxCells;
+			sourceTree = "<group>";
+		};
+		BEED21CE225702A800394EE9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BEED21CF225702A800394EE9 /* ParallaxImageView.swift */,
+				BEED21D0225702A800394EE9 /* ProgressDotView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -158,9 +236,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEED21942256E28A00394EE9 /* Build configuration list for PBXNativeTarget "FluidInterfaces" */;
 			buildPhases = (
+				26DFF7942FE51D38909EFA00 /* [CP] Check Pods Manifest.lock */,
 				BEED217E2256E28900394EE9 /* Sources */,
 				BEED217F2256E28900394EE9 /* Frameworks */,
 				BEED21802256E28900394EE9 /* Resources */,
+				D5D7271629203C38468040F1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -217,17 +297,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		26DFF7942FE51D38909EFA00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FluidInterfaces-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5D7271629203C38468040F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FluidInterfaces/Pods-FluidInterfaces-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Elephant-Parade/Elephant_Parade.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Elephant_Parade.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FluidInterfaces/Pods-FluidInterfaces-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BEED217E2256E28900394EE9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BEED21992256E40400394EE9 /* AppleWatchBreatheVC.swift in Sources */,
+				BEED21D1225702A800394EE9 /* ParallaxImageViewController.swift in Sources */,
+				BEED21D7225702A800394EE9 /* ParallaxIntroCollectionViewCell.swift in Sources */,
 				BEED21B42256E9FD00394EE9 /* CalculatorButton.swift in Sources */,
 				BEED21BF2256E9FD00394EE9 /* GradientView.swift in Sources */,
+				BEED21D9225702A800394EE9 /* ParallaxImageView.swift in Sources */,
 				BEED21B72256E9FD00394EE9 /* Spring.swift in Sources */,
 				BEED21A32256E58800394EE9 /* PathBuilder.swift in Sources */,
 				BEED21BA2256E9FD00394EE9 /* Acceleration.swift in Sources */,
+				BEED21D2225702A800394EE9 /* PagingCollectionViewFlowLayout.swift in Sources */,
 				BEED21882256E28900394EE9 /* MenuViewController.swift in Sources */,
 				BEED219B2256E42D00394EE9 /* BreatheView.swift in Sources */,
 				BEED21B52256E9FD00394EE9 /* Pip.swift in Sources */,
@@ -235,14 +366,20 @@
 				BEED21862256E28900394EE9 /* AppDelegate.swift in Sources */,
 				BEED21C32256EA6700394EE9 /* InterfaceViewController.swift in Sources */,
 				BEED21BB2256E9FD00394EE9 /* UIViewExtensions.swift in Sources */,
+				BEED21D4225702A800394EE9 /* ParallaxImageCollectionViewCell.swift in Sources */,
+				BEED21D5225702A800394EE9 /* ParallaxScaleCollectionViewCell.swift in Sources */,
 				BEED21B82256E9FD00394EE9 /* Interface.swift in Sources */,
 				BEED21A22256E58800394EE9 /* AnimatedWaveView.swift in Sources */,
 				BEED21C02256E9FD00394EE9 /* Rotation.swift in Sources */,
+				BEED21DA225702A800394EE9 /* ProgressDotView.swift in Sources */,
 				BEED21B92256E9FD00394EE9 /* Rubberbanding.swift in Sources */,
 				BEED21BC2256E9FD00394EE9 /* SwiftExtensions.swift in Sources */,
+				BEED21D8225702A800394EE9 /* ParallaxDoubleImageCollectionViewCell.swift in Sources */,
 				BEED21C12256E9FD00394EE9 /* UIColorExtensions.swift in Sources */,
 				BEED21BD2256E9FD00394EE9 /* FlashlightButton.swift in Sources */,
+				BEED21D3225702A800394EE9 /* ParallaxImageAppearCollectionViewCell.swift in Sources */,
 				BEED219E2256E57F00394EE9 /* AnimatedWaveViewVC.swift in Sources */,
+				BEED21D6225702A800394EE9 /* ParallaxTheEndCollectionViewCell.swift in Sources */,
 				BEED21BE2256E9FD00394EE9 /* Momentum.swift in Sources */,
 				BEED21B62256E9FD00394EE9 /* CGPointExtensions.swift in Sources */,
 			);
@@ -388,6 +525,7 @@
 		};
 		BEED21952256E28A00394EE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90C0DCABE961A5C224B1036C /* Pods-FluidInterfaces.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -406,6 +544,7 @@
 		};
 		BEED21962256E28A00394EE9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 721C0494238824A526333666 /* Pods-FluidInterfaces.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
