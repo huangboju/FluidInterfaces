@@ -26,17 +26,27 @@ class ParallaxImageViewController : InterfaceViewController {
     override func viewWillAppear(_ animated : Bool) {
         super.viewWillAppear(animated)
         additionalSafeAreaInsets = UIEdgeInsets.zero
-        navigationController?.setNavigationBarHidden(true, animated: true)
-        UIApplication.shared.isStatusBarHidden = true
         if #available(iOS 11.0, *) {
             collectionView.contentInsetAdjustmentBehavior = .never
         }
+        
+        navigationController?.navigationBar.shadowImage = UIImage()
+        navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
 
         setupInterface()
     }
     
-    func setupInterface()
-    {
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.navigationBar.shadowImage = nil
+        navigationController?.navigationBar.setBackgroundImage(nil, for: .default)
+    }
+
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
+    
+    func setupInterface() {
         view.clipsToBounds = true
         view.backgroundColor = defaultBackgroundColor
         view.addSubview(collectionView)
@@ -50,8 +60,6 @@ class ParallaxImageViewController : InterfaceViewController {
     }
     
     lazy var collectionView : UICollectionView = {
-        [unowned self] in
-        
         let layout = PagingCollectionViewFlowLayout()
         layout.scrollDirection = .vertical
         
