@@ -8,8 +8,6 @@
 
 import UIKit
 
-// https://github.com/nathangitter/fluid-interfaces
-
 class MenuViewController: UIViewController {
     
     private let interfaces = Interface.all

@@ -6,8 +6,6 @@
 //  Copyright © 2019 黄伯驹. All rights reserved.
 //
 
-// https://github.com/j-wilkin/AnimatedWaveView
-
 import UIKit
 
 class AnimatedWaveViewVC: InterfaceViewController {

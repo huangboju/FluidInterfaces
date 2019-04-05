@@ -6,8 +6,6 @@
 //  Copyright © 2019 黄伯驹. All rights reserved.
 //
 
-// https://juejin.im/post/5c8ef41ef265da682335e688
-
 import UIKit
 
 class AppleWatchBreatheVC: InterfaceViewController {
