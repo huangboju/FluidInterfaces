@@ -8,20 +8,62 @@
 
 /* Begin PBXBuildFile section */
 		BEED21862256E28900394EE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEED21852256E28900394EE9 /* AppDelegate.swift */; };
-		BEED21882256E28900394EE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEED21872256E28900394EE9 /* ViewController.swift */; };
+		BEED21882256E28900394EE9 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEED21872256E28900394EE9 /* MenuViewController.swift */; };
 		BEED218B2256E28900394EE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEED21892256E28900394EE9 /* Main.storyboard */; };
 		BEED218D2256E28A00394EE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEED218C2256E28A00394EE9 /* Assets.xcassets */; };
 		BEED21902256E28A00394EE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEED218E2256E28A00394EE9 /* LaunchScreen.storyboard */; };
+		BEED21992256E40400394EE9 /* AppleWatchBreatheVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEED21982256E40400394EE9 /* AppleWatchBreatheVC.swift */; };
+		BEED219B2256E42D00394EE9 /* BreatheView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEED219A2256E42D00394EE9 /* BreatheView.swift */; };
+		BEED219E2256E57F00394EE9 /* AnimatedWaveViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEED219D2256E57F00394EE9 /* AnimatedWaveViewVC.swift */; };
+		BEED21A22256E58800394EE9 /* AnimatedWaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEED219F2256E58800394EE9 /* AnimatedWaveView.swift */; };
+		BEED21A32256E58800394EE9 /* PathBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEED21A02256E58800394EE9 /* PathBuilder.swift */; };
+		BEED21A42256E58800394EE9 /* RadialGradientLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEED21A12256E58800394EE9 /* RadialGradientLayer.swift */; };
+		BEED21B42256E9FD00394EE9 /* CalculatorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEED21A62256E9FC00394EE9 /* CalculatorButton.swift */; };
+		BEED21B52256E9FD00394EE9 /* Pip.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEED21A72256E9FC00394EE9 /* Pip.swift */; };
+		BEED21B62256E9FD00394EE9 /* CGPointExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEED21A82256E9FC00394EE9 /* CGPointExtensions.swift */; };
+		BEED21B72256E9FD00394EE9 /* Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEED21A92256E9FC00394EE9 /* Spring.swift */; };
+		BEED21B82256E9FD00394EE9 /* Interface.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEED21AA2256E9FC00394EE9 /* Interface.swift */; };
+		BEED21B92256E9FD00394EE9 /* Rubberbanding.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEED21AB2256E9FC00394EE9 /* Rubberbanding.swift */; };
+		BEED21BA2256E9FD00394EE9 /* Acceleration.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEED21AC2256E9FC00394EE9 /* Acceleration.swift */; };
+		BEED21BB2256E9FD00394EE9 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEED21AD2256E9FC00394EE9 /* UIViewExtensions.swift */; };
+		BEED21BC2256E9FD00394EE9 /* SwiftExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEED21AE2256E9FC00394EE9 /* SwiftExtensions.swift */; };
+		BEED21BD2256E9FD00394EE9 /* FlashlightButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEED21AF2256E9FC00394EE9 /* FlashlightButton.swift */; };
+		BEED21BE2256E9FD00394EE9 /* Momentum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEED21B02256E9FC00394EE9 /* Momentum.swift */; };
+		BEED21BF2256E9FD00394EE9 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEED21B12256E9FC00394EE9 /* GradientView.swift */; };
+		BEED21C02256E9FD00394EE9 /* Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEED21B22256E9FC00394EE9 /* Rotation.swift */; };
+		BEED21C12256E9FD00394EE9 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEED21B32256E9FC00394EE9 /* UIColorExtensions.swift */; };
+		BEED21C32256EA6700394EE9 /* InterfaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEED21C22256EA6700394EE9 /* InterfaceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BEED21822256E28900394EE9 /* FluidInterfaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FluidInterfaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEED21852256E28900394EE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BEED21872256E28900394EE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEED21872256E28900394EE9 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		BEED218A2256E28900394EE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BEED218C2256E28A00394EE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEED218F2256E28A00394EE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEED21912256E28A00394EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEED21982256E40400394EE9 /* AppleWatchBreatheVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatchBreatheVC.swift; sourceTree = "<group>"; };
+		BEED219A2256E42D00394EE9 /* BreatheView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreatheView.swift; sourceTree = "<group>"; };
+		BEED219D2256E57F00394EE9 /* AnimatedWaveViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedWaveViewVC.swift; sourceTree = "<group>"; };
+		BEED219F2256E58800394EE9 /* AnimatedWaveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedWaveView.swift; sourceTree = "<group>"; };
+		BEED21A02256E58800394EE9 /* PathBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathBuilder.swift; sourceTree = "<group>"; };
+		BEED21A12256E58800394EE9 /* RadialGradientLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadialGradientLayer.swift; sourceTree = "<group>"; };
+		BEED21A62256E9FC00394EE9 /* CalculatorButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorButton.swift; sourceTree = "<group>"; };
+		BEED21A72256E9FC00394EE9 /* Pip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pip.swift; sourceTree = "<group>"; };
+		BEED21A82256E9FC00394EE9 /* CGPointExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPointExtensions.swift; sourceTree = "<group>"; };
+		BEED21A92256E9FC00394EE9 /* Spring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spring.swift; sourceTree = "<group>"; };
+		BEED21AA2256E9FC00394EE9 /* Interface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interface.swift; sourceTree = "<group>"; };
+		BEED21AB2256E9FC00394EE9 /* Rubberbanding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rubberbanding.swift; sourceTree = "<group>"; };
+		BEED21AC2256E9FC00394EE9 /* Acceleration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Acceleration.swift; sourceTree = "<group>"; };
+		BEED21AD2256E9FC00394EE9 /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		BEED21AE2256E9FC00394EE9 /* SwiftExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftExtensions.swift; sourceTree = "<group>"; };
+		BEED21AF2256E9FC00394EE9 /* FlashlightButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlashlightButton.swift; sourceTree = "<group>"; };
+		BEED21B02256E9FC00394EE9 /* Momentum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Momentum.swift; sourceTree = "<group>"; };
+		BEED21B12256E9FC00394EE9 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		BEED21B22256E9FC00394EE9 /* Rotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rotation.swift; sourceTree = "<group>"; };
+		BEED21B32256E9FC00394EE9 /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		BEED21C22256EA6700394EE9 /* InterfaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +96,57 @@
 		BEED21842256E28900394EE9 /* FluidInterfaces */ = {
 			isa = PBXGroup;
 			children = (
+				BEED21A52256E7A400394EE9 /* FluidInterfaces */,
+				BEED219C2256E53100394EE9 /* AnimatedWaveView */,
+				BEED21972256E3F200394EE9 /* AppleWatchBreathe */,
 				BEED21852256E28900394EE9 /* AppDelegate.swift */,
-				BEED21872256E28900394EE9 /* ViewController.swift */,
+				BEED21872256E28900394EE9 /* MenuViewController.swift */,
+				BEED21C22256EA6700394EE9 /* InterfaceViewController.swift */,
+				BEED21AA2256E9FC00394EE9 /* Interface.swift */,
 				BEED21892256E28900394EE9 /* Main.storyboard */,
 				BEED218C2256E28A00394EE9 /* Assets.xcassets */,
 				BEED218E2256E28A00394EE9 /* LaunchScreen.storyboard */,
 				BEED21912256E28A00394EE9 /* Info.plist */,
+			);
+			path = FluidInterfaces;
+			sourceTree = "<group>";
+		};
+		BEED21972256E3F200394EE9 /* AppleWatchBreathe */ = {
+			isa = PBXGroup;
+			children = (
+				BEED219A2256E42D00394EE9 /* BreatheView.swift */,
+				BEED21982256E40400394EE9 /* AppleWatchBreatheVC.swift */,
+			);
+			path = AppleWatchBreathe;
+			sourceTree = "<group>";
+		};
+		BEED219C2256E53100394EE9 /* AnimatedWaveView */ = {
+			isa = PBXGroup;
+			children = (
+				BEED219F2256E58800394EE9 /* AnimatedWaveView.swift */,
+				BEED21A02256E58800394EE9 /* PathBuilder.swift */,
+				BEED21A12256E58800394EE9 /* RadialGradientLayer.swift */,
+				BEED219D2256E57F00394EE9 /* AnimatedWaveViewVC.swift */,
+			);
+			path = AnimatedWaveView;
+			sourceTree = "<group>";
+		};
+		BEED21A52256E7A400394EE9 /* FluidInterfaces */ = {
+			isa = PBXGroup;
+			children = (
+				BEED21AC2256E9FC00394EE9 /* Acceleration.swift */,
+				BEED21A62256E9FC00394EE9 /* CalculatorButton.swift */,
+				BEED21A82256E9FC00394EE9 /* CGPointExtensions.swift */,
+				BEED21AF2256E9FC00394EE9 /* FlashlightButton.swift */,
+				BEED21B12256E9FC00394EE9 /* GradientView.swift */,
+				BEED21B02256E9FC00394EE9 /* Momentum.swift */,
+				BEED21A72256E9FC00394EE9 /* Pip.swift */,
+				BEED21B22256E9FC00394EE9 /* Rotation.swift */,
+				BEED21AB2256E9FC00394EE9 /* Rubberbanding.swift */,
+				BEED21A92256E9FC00394EE9 /* Spring.swift */,
+				BEED21AE2256E9FC00394EE9 /* SwiftExtensions.swift */,
+				BEED21B32256E9FC00394EE9 /* UIColorExtensions.swift */,
+				BEED21AD2256E9FC00394EE9 /* UIViewExtensions.swift */,
 			);
 			path = FluidInterfaces;
 			sourceTree = "<group>";
@@ -135,8 +222,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEED21882256E28900394EE9 /* ViewController.swift in Sources */,
+				BEED21992256E40400394EE9 /* AppleWatchBreatheVC.swift in Sources */,
+				BEED21B42256E9FD00394EE9 /* CalculatorButton.swift in Sources */,
+				BEED21BF2256E9FD00394EE9 /* GradientView.swift in Sources */,
+				BEED21B72256E9FD00394EE9 /* Spring.swift in Sources */,
+				BEED21A32256E58800394EE9 /* PathBuilder.swift in Sources */,
+				BEED21BA2256E9FD00394EE9 /* Acceleration.swift in Sources */,
+				BEED21882256E28900394EE9 /* MenuViewController.swift in Sources */,
+				BEED219B2256E42D00394EE9 /* BreatheView.swift in Sources */,
+				BEED21B52256E9FD00394EE9 /* Pip.swift in Sources */,
+				BEED21A42256E58800394EE9 /* RadialGradientLayer.swift in Sources */,
 				BEED21862256E28900394EE9 /* AppDelegate.swift in Sources */,
+				BEED21C32256EA6700394EE9 /* InterfaceViewController.swift in Sources */,
+				BEED21BB2256E9FD00394EE9 /* UIViewExtensions.swift in Sources */,
+				BEED21B82256E9FD00394EE9 /* Interface.swift in Sources */,
+				BEED21A22256E58800394EE9 /* AnimatedWaveView.swift in Sources */,
+				BEED21C02256E9FD00394EE9 /* Rotation.swift in Sources */,
+				BEED21B92256E9FD00394EE9 /* Rubberbanding.swift in Sources */,
+				BEED21BC2256E9FD00394EE9 /* SwiftExtensions.swift in Sources */,
+				BEED21C12256E9FD00394EE9 /* UIColorExtensions.swift in Sources */,
+				BEED21BD2256E9FD00394EE9 /* FlashlightButton.swift in Sources */,
+				BEED219E2256E57F00394EE9 /* AnimatedWaveViewVC.swift in Sources */,
+				BEED21BE2256E9FD00394EE9 /* Momentum.swift in Sources */,
+				BEED21B62256E9FD00394EE9 /* CGPointExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
