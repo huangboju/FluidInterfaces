@@ -6,7 +6,6 @@
 //  Copyright © 2018 ELEPHANT. All rights reserved.
 //
 
-import Foundation
 import UIKit
 
 public let defaultBlackColor            = UIColor(hex: 0x000000)
