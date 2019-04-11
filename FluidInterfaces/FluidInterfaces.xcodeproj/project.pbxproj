@@ -44,6 +44,8 @@
 		BEED21D8225702A800394EE9 /* ParallaxDoubleImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEED21CD225702A800394EE9 /* ParallaxDoubleImageCollectionViewCell.swift */; };
 		BEED21D9225702A800394EE9 /* ParallaxImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEED21CF225702A800394EE9 /* ParallaxImageView.swift */; };
 		BEED21DA225702A800394EE9 /* ProgressDotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEED21D0225702A800394EE9 /* ProgressDotView.swift */; };
+		F714A9BD225F43F300E6F61C /* CountdownProgressBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F714A9BC225F43F300E6F61C /* CountdownProgressBarVC.swift */; };
+		F714A9BF225F44AF00E6F61C /* CountdownProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F714A9BE225F44AF00E6F61C /* CountdownProgressBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +90,8 @@
 		BEED21CF225702A800394EE9 /* ParallaxImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxImageView.swift; sourceTree = "<group>"; };
 		BEED21D0225702A800394EE9 /* ProgressDotView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressDotView.swift; sourceTree = "<group>"; };
 		C94510D0D3BC18488A79302C /* Pods_FluidInterfaces.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FluidInterfaces.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F714A9BC225F43F300E6F61C /* CountdownProgressBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownProgressBarVC.swift; sourceTree = "<group>"; };
+		F714A9BE225F44AF00E6F61C /* CountdownProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountdownProgressBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +144,7 @@
 		BEED21842256E28900394EE9 /* FluidInterfaces */ = {
 			isa = PBXGroup;
 			children = (
+				F714A9BB225F43DC00E6F61C /* CountdownProgressBar */,
 				BEED21C42256FE3D00394EE9 /* Parade */,
 				BEED21A52256E7A400394EE9 /* FluidInterfaces */,
 				BEED219C2256E53100394EE9 /* AnimatedWaveView */,
@@ -227,6 +232,15 @@
 				BEED21D0225702A800394EE9 /* ProgressDotView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		F714A9BB225F43DC00E6F61C /* CountdownProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				F714A9BE225F44AF00E6F61C /* CountdownProgressBar.swift */,
+				F714A9BC225F43F300E6F61C /* CountdownProgressBarVC.swift */,
+			);
+			path = CountdownProgressBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,6 +364,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEED21992256E40400394EE9 /* AppleWatchBreatheVC.swift in Sources */,
+				F714A9BF225F44AF00E6F61C /* CountdownProgressBar.swift in Sources */,
+				F714A9BD225F43F300E6F61C /* CountdownProgressBarVC.swift in Sources */,
 				BEED21D1225702A800394EE9 /* ParallaxImageViewController.swift in Sources */,
 				BEED21D7225702A800394EE9 /* ParallaxIntroCollectionViewCell.swift in Sources */,
 				BEED21B42256E9FD00394EE9 /* CalculatorButton.swift in Sources */,
